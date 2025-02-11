@@ -5,11 +5,12 @@ body{
 table{
     width: 400px;
     padding: 8px;
-    border-collapse: collapse; /**tabela juntas**/
+    border-collapse: collapse; /*tabela juntas*/
 }
 
 td{
     border: 1px solid black;
+    text-align: center;
 }
 
 tr.linha{
