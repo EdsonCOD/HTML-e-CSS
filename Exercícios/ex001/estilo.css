@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 400px;
+    padding: 8px;
+    border-collapse: collapse; /**tabela juntas**/
+}
+
+td{
+    border: 1px solid black;
+}
+
+tr.linha{
+    background-color: gray;
+}
+td#A4{
+    background-color: rgb(255, 0, 0);
+    color: rgba(0, 255, 94, 0.797);
+}
