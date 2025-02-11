@@ -18,7 +18,7 @@ html, body{
     font-family: var(--fonte1);
     min-height: 10vh;
     background-color: darkgray;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 header{
@@ -28,8 +28,7 @@ header{
     min-height: 150px;
     padding-top: 40px;
     width: 100%;
-    border-bottom-right-radius: 13px;
-    border-bottom-left-radius: 13px;
+
 }
 
 header > h1{
@@ -71,6 +70,7 @@ section{
     font-size: 1.5 em;
 }
 
+
 section.normal{
     background-color: white;
     color: black;
@@ -79,11 +79,25 @@ section.normal{
 section.imagem{
     background-color: rgb;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.225);
+    background-size: cover;
+    background-attachment: fixed; /**efeito paralex**/
 }
 
 section.imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.238);
+    background-color: rgba(0, 0, 0, 0.493);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-position: center center;
+    background-image: url(../imagens/background001.jpg);
+}
+
+section#img02{
+    background-position: right center;
+    background-image: url(../imagens/background002.jpg);
 }
 
 footer{
