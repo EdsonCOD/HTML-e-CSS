@@ -20,3 +20,7 @@ thead, th, tfoot{
     text-align:right;
 
 }
+caption{
+    padding: 10px;
+    font-size: 1.3em;
+}
