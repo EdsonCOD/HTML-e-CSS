@@ -1,0 +1,15 @@
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+caption{
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
