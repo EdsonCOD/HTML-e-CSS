@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.php" autocomplete="off" method="post">
+
+        <!--Required (obrigatório) / minlength (tamanho minimo) / maxlength (máximo tamanho)-->
+        <p>
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" placeholder="User">
+        </p>
+        <!--Placeholder (é uma dica)-->
+        <p>
+            <label for="isen">Senha: </label>
+            <input type="password" name="sen" id="isen" required minlength="5" placeholder="senha forte">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
