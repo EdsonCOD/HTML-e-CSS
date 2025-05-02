@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario BootStrap</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.php" autocomplete="off" method="post">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required>
+        </p>
+
+        <p>
+            <label for="imatricula">Matricula: </label>
+            <input type="text" name="matricula" id="imatricula" readonly placeholder="ex.20242TDS-XXXXX">
+        </p>
+
+        <P>
+            <label for="icursos">Curso: </label>
+            <select name="curso" id="icursos">
+                <option value="ADS">Desenvolvimento de sistema</option>
+                <option value="EngSoft">Engenharia de software</option>
+                <option value="Redes">Redes</option>
+                <option value="CC">Ciência da computação</option>
+            </select>
+        </P>
+
+        <p>
+            <label for="inascimento">Nascimento: </label>
+            <input type="date" name="nascimento" id="inascimento">
+        </p>
+
+        <p>
+            <label for="icpf">CPF: </label>
+            <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00" maxlength="14">
+        </p>
+
+        <p>
+            <label for="iemail">Email: </label>
+            <input type="email" name="email" id="iemail" placeholder="xxx@gmail.com" required>
+        </p>
+
+        <p>
+            <label for="ifoto">Foto: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>
